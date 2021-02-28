@@ -1,0 +1,24 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCpBoI45_WOlBd3I7UEJzsgWZcQlyFealY",
+    authDomain: "recepietracker.firebaseapp.com",
+    databaseURL: "https://recepietracker-default-rtdb.firebaseio.com",
+    projectId: "recepietracker",
+    storageBucket: "recepietracker.appspot.com",
+    messagingSenderId: "444541204565",
+    appId: "1:444541204565:web:09724aaef22992c9a37cdc",
+    measurementId: "G-WB4CP7GPGL"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
